@@ -52,3 +52,9 @@ require("lazy").setup({
     },
   },
 })
+
+require("cmp").setup({
+  completion = {
+    autocomplete = false, -- Disable auto suggestions
+  },
+})
